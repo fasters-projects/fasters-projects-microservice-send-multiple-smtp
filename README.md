@@ -1,6 +1,6 @@
 # Microservice Send Multiple SMTP
 
-Este é um microserviço desenvolvido com Express.js para enviar e-mails através de diferentes configurações SMTP. O serviço permite a validação dos dados do e-mail e fornece tratamento de erros para garantir que as requisições sejam processadas adequadamente.
+Este é um microserviço desenvolvido com node.js para enviar e-mails através de diferentes configurações SMTP. O serviço permite a validação dos dados do e-mail e fornece tratamento de erros para garantir que as requisições sejam processadas adequadamente.
 
 ## Tecnologias Utilizadas
 
@@ -22,7 +22,7 @@ Este é um microserviço desenvolvido com Express.js para enviar e-mails atravé
 1. Clone o repositório:
 
    ```bash
-   git clone https://github.com/patrickluizdev/microservice-send-multiple-smtp.git
+   git clone https://github.com/fasters-projects/fasters-projects-microservice-send-multiple-smtp.git
    cd microservice-send-multiple-smtp
    ```
 
@@ -30,10 +30,6 @@ Este é um microserviço desenvolvido com Express.js para enviar e-mails atravé
 
    ```bash
    docker build -t microservice-send-multiple-smtp .
-   ```
-   OU, utilize a imagem no Docker Registry:
-   ```bash
-   docker run -d -p 3000:3000 --name microservice-send-multiple-smtp jatabara/microservice-send-multiple-smtp:latest
    ```
 
 3. Inicie o container:
